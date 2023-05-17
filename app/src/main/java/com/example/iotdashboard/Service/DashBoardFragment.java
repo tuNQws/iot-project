@@ -39,7 +39,7 @@ public class DashBoardFragment extends Fragment {
         deviceList.add(device);
 
         device = new Device("Raspery Pi", "today",
-                "https://res.cloudinary.com/dxivl2lh5/image/upload/v1684224110/raspery_eytslz.jpg");
+                "https://firebasestorage.googleapis.com/v0/b/example-46a24.appspot.com/o/iot%2Fwemos.jfif?alt=media&token=bcf400ae-b93d-40ec-8597-8d29874fcf2b");
         deviceList.add(device);
 
         DeviceAdapter deviceAdapter = new DeviceAdapter(this.getContext(), deviceList);
